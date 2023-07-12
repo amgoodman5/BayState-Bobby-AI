@@ -43,6 +43,7 @@ export class AiFormComponent implements OnDestroy {
         data.response = text.data.choices[0].text;
       });
   }
+  
   createNewQuestion() {
     this.textList.push({ sno: 1, text: '', response: '' });
   }
